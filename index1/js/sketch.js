@@ -8,7 +8,7 @@ function setup() {
 }
 
 function draw() {
-  background(220);
+  background("purple");
   
   // pair knife to mouse position
   knifeX = mouseX;
