@@ -54,7 +54,7 @@ function drawSandParticles() {
   for (let i = 0; i < 100; i++) {
     let x = random(width);
     let y = random(height);
-    ellipse(x, y, random(4, 8), random(4, 8)); // Random size sand particles
+    ellipse(x, y, random(4, 8), random(4, 8)); // blood splatters
   }
 }
 

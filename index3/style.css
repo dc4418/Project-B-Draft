@@ -1,5 +1,5 @@
 body {
-    background-color:firebrick;
+    /* background-color:firebrick; */
     font-size: 5em;
     margin: 5px;
     padding: 30px;
@@ -11,8 +11,8 @@ font-family: "Jersey 15", sans-serif;
 }
 
 .red {
-    background-color: deeppink;
-    height: 200px;
+    background-color: yellow
+    height: 600px;
 }
 
 .blue {
@@ -59,8 +59,9 @@ font-family: "Jersey 15", sans-serif;
 
 .box {
     width: 400px;
-    height: 200px;
+    height: 800px;
     margin: 20px;
     text-align: center;
+    color: azure;
    border: 10px ridge purple;
 }

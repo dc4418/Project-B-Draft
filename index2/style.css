@@ -1,6 +1,6 @@
 body {
     background-color:firebrick;
-    font-size: 5em;
+    font-size: 3em;
     margin: 5px;
     padding: 30px;
     /* font-family: 'Courier New', Courier, monospace; */
@@ -11,19 +11,16 @@ font-family: "Jersey 15", sans-serif;
 }
 
 .red {
-    background-color: deeppink;
-    height: 200px;
-}
-
-.blue {
-    background-color: deepskyblue;
-    height: 200px;
+    background-color: whitesmoke;
+    height: 600px;
+    width: 200px;
 }
 
 .green {
-    background-color: blueviolet;
+    background-color: green;
     height: 200px;
 }
+
 
 .black {
    background-color: darkorchid;
@@ -58,9 +55,9 @@ font-family: "Jersey 15", sans-serif;
 }
 
 .box {
-    width: 400px;
-    height: 200px;
-    margin: 20px;
+    width: calc(33.33% - 20px); 
+    height: 500px; /
+    margin: 0; 
     text-align: center;
-   border: 10px ridge purple;
+    border: 10px ridge green;
 }
