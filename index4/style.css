@@ -1,5 +1,9 @@
 body {
-    background-color:firebrick;
+    background-image: url('images/building AI.jpeg');
+  background-repeat: no-repeat;  
+  background-size: cover;
+  z-index: 1;    
+  position: relative;
     font-size: 5em;
     margin: 5px;
     padding: 30px;
@@ -13,6 +17,7 @@ font-family: "Jersey 15", sans-serif;
 .red {
     background-color: deeppink;
     height: 200px;
+    text-align: center;
 }
 
 .blue {
@@ -64,3 +69,21 @@ font-family: "Jersey 15", sans-serif;
     text-align: center;
    border: 10px ridge purple;
 }
+
+.homebuttontop{
+    background-color: rgb(22, 136, 55);
+    position: fixed;
+    left: 50x;
+    top: 0px;
+    border: ridge rgb(20, 106, 17);
+  }
+  .orange{
+    height: 50px;
+    width: 200px;
+    position: fixed; 
+    font-size: 2px;
+    top: 0;
+    right: 0; 
+    text-align: center;
+  }
+

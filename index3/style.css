@@ -21,13 +21,13 @@ font-family: "Jersey 15", sans-serif;
 }
 
 .green {
-    background-color: blueviolet;
+    background-color: skyblue;
     height: 200px;
 }
 
 .black {
    background-color: darkorchid;
-    height: 50px;
+    height: 0px;
     width: 200px;
     position: fixed; 
     font-size: 30px;
@@ -49,19 +49,27 @@ font-family: "Jersey 15", sans-serif;
     padding: 10px;
     z-index: 999; /* Ensure the header is above other content */
 }
-.flex-container {
+/* .flex-container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    height: 100vh; 
+    height: 100vh;  */
 }
 
 .box {
     width: 400px;
-    height: 800px;
+    height: 400px;
     margin: 20px;
     text-align: center;
     color: azure;
    border: 10px ridge purple;
 }
+
+.homebuttontop{
+    background-color: rgb(22, 136, 55);
+    position: fixed;
+    left: 50x;
+    top: 0px;
+    border: ridge rgb(20, 106, 17);
+  }

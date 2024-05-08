@@ -1,12 +1,13 @@
 body {
     background-color:firebrick;
+    color: firebrick;
     font-size: 5em;
     margin: 5px;
     padding: 30px;
     /* font-family: 'Courier New', Courier, monospace; */
 font-family: "Jersey 15", sans-serif;
     font-weight: 400;
-    font-style: normal;
+    font-style:normal;
 
 }
 
@@ -26,15 +27,16 @@ font-family: "Jersey 15", sans-serif;
 }
 
 .black {
-   background-color: darkorchid;
+   background-color: firebrick;
+   color: firebrick;
     height: 50px;
     width: 200px;
-    position: fixed; 
-    font-size: 30px;
+    position: absolute; 
+    font-size: 100px;
     top: 0;
     right: 0; 
     text-align: center;
-    z-index: 1; /* Ensure it's above other content */
+    z-index: 1; Ensure it's above other content
 }
 
 .header {
@@ -44,7 +46,7 @@ font-family: "Jersey 15", sans-serif;
     left: 0;
     width:max-content;
     background-color: black;
-    color: white;
+    color: firebrick;
     font-size: 24px;
     padding: 10px;
     z-index: 999; /* Ensure the header is above other content */
@@ -64,3 +66,10 @@ font-family: "Jersey 15", sans-serif;
     text-align: center;
    border: 10px ridge purple;
 }
+
+.black a {
+    font-size: 1px;
+    text-decoration: underline;
+    text-decoration-color:firebrick
+    
+    

@@ -1,7 +1,7 @@
 var capture;
 var tracker;
-var w = 640,
-    h = 480;
+var w = 1440,
+    h = 800;
 var mouthOpenThreshold = -10; // Adjust this threshold
 var cigaretteLength = 150;
 var cigaretteWidth = 15;
@@ -81,21 +81,19 @@ function draw() {
             drawCigarette(positions[62][0], positions[62][1]);
         }
           
-            // Draw anything else you like when mouth is closed
-            // For example, you can draw the cigarette-like shape here
         
         }
 }
 
 function drawCigarette(x, y) {
-    // Draw the white part of the cigarette
-    fill(255); // White color for the cigarette tip
+    // white part of the cigarette
+    fill(255); // 
   stroke(1)
     var whiteLength = cigaretteLength * 0.75; // 3/4 of the cigarette length
     rectMode(CENTER);
     rect(x, y*1.4 + whiteLength * 0.5, cigaretteWidth, whiteLength*2, 5);
 
-    // Draw the yellowish part of the cigarette
+    // yellowish part of the cigarette
     fill(40, 100, 100); // Yellowish color for the cigarette filler
-    rect(x, y*1.6- whiteLength * 0.5, cigaretteWidth, whiteLength, 5);
+    rect(x, y*1.6- whiteLength * 0.8, cigaretteWidth, whiteLength, 5);
 }

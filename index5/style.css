@@ -1,5 +1,5 @@
 body {
-    background-image: url('images/nigeria.jpeg');
+    background-image: url('images/congratulationgs.jpeg');
     background-repeat: no-repeat;  
     background-size: cover;
     font-size: 3em;
@@ -8,32 +8,35 @@ body {
     /* font-family: 'Courier New', Courier, monospace; */
 font-family: "Jersey 15", sans-serif;
     font-weight: 400;
-    font-style: normal;
+    font-style: normal
 
 }
 
 .red {
-    background-color: whitesmoke;
-    height: 600px;
-    width: 200px;
-}
-
-.green {
-    background-color: green;
+    background-color: deeppink;
     height: 200px;
 }
 
+.blue {
+    background-color: deepskyblue;
+    height: 200px;
+}
+
+.green {
+    background-color: blueviolet;
+    height: 200px;
+}
 
 .black {
-   background-color: darkorchid;
+   background-color: firebrick;
     height: 50px;
     width: 200px;
-    position: fixed; 
-    font-size: 30px;
+    position: absolute; 
+    font-size: 100px;
     top: 0;
     right: 0; 
     text-align: center;
-    z-index: 1; /* Ensure it's above other content */
+    z-index: 1; Ensure it's above other content
 }
 
 .header {
@@ -57,17 +60,14 @@ font-family: "Jersey 15", sans-serif;
 }
 
 .box {
-    width: calc(33.33% - 20px); 
-    height: 500px; /
-    margin: 0; 
+    width: 400px;
+    height: 200px;
+    margin: 20px;
     text-align: center;
-    border: 10px ridge green;
+   border: 10px ridge purple;
 }
 
-.homebuttontop{
-    background-color: rgb(22, 136, 55);
-    position: fixed;
-    left: 50x;
-    top: 0px;
-    border: ridge rgb(20, 106, 17);
-  }
+.black a {
+    text-decoration: underline;
+    text-decoration-color:firebrick
+    

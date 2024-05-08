@@ -43,7 +43,7 @@ function drawKnife(x, y){
 
 // Function to create a blood splatter object
 function createBloodSplatter(x, y) {
-  // Calculate the position of the blade tip (the third vertex of the triangle)
+  // Calculate the position of the blade tip (3rd one most important)
   let bladeTipX = x + 200;
   let bladeTipY = y;
   
